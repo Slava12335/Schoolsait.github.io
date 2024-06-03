@@ -1,0 +1,160 @@
+/**/
+/*Шрифты*/
+@import 'https://fonts.googleapis.com/css2?family=Neucha&display=swap';
+/*
+font-family: "Neucha", cursive;  
+font-weight: 400;  font-style: normal;
+*/
+
+@import 'https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap';
+/*
+font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
+*/
+
+@import 'https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap';
+/*
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+*/
+
+ 
+
+
+tabl>table tr td a {
+    font-size: 1.9em;
+    color: #000000;
+    font-family: "Mulish", sans-serif;
+}
+
+tabl>table tr td {
+    border-bottom: 2px solid #dadada;
+    
+}
+
+
+
+tabl {
+    border-left: 2px solid #000000;
+    max-width: 450px;
+    float: left;
+    width: 40%;
+    
+    
+}
+
+/*Календарь----------------------------------------------------------------*/
+
+calen {
+     
+    display: flex;
+    float: right;
+    width: 40%;
+
+}
+
+iframe {
+    width: 450px;
+}
+
+
+
+
+/*Конец Календарь----------------------------------------------------------------*/
+
+st3 { 
+    float: left;
+    width: 60%;
+    font-family: "Roboto Serif", serif;
+
+}
+
+st3>.S3 {
+    width: 726px;
+    float: right;
+}
+
+st3 span {
+    font-size: 40px;
+    
+}
+
+st3 p {
+    font-size: 25px;
+    
+}
+
+st3 a {
+    font-size: 25px;
+}
+
+
+/*Поиск----------------------------------------------------------------*/
+
+poisk { 
+    float: left;
+    width: 60%;
+    font-family: "Roboto Serif", serif;
+
+}
+
+poisk>.pol {
+    width: 726px;
+    float: right;
+}
+
+poisk span {
+    font-size: 40px;
+    padding-top: 30px;
+    
+}
+
+poisk p {
+    font-size: 25px;
+    
+}
+
+.pol a {
+    font-size: 25px; 
+}
+
+
+
+
+.te {
+    background: #d2f6048b;
+    width: 580px;
+    padding: 70px; 
+    height: 70px;
+    border-radius: 15px;
+}
+
+.ul {
+    float: left;
+    margin-left: 25px;
+}
+
+.input {
+    font-size: 30px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.hide {
+   display: none; 
+}
+
+
+
+/*Конец Поиск----------------------------------------------------------------*/
+
