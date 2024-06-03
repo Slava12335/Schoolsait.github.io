@@ -1,0 +1,631 @@
+/**/
+/*Шрифты*/
+@import 'https://fonts.googleapis.com/css2?family=Neucha&display=swap';
+/*
+font-family: "Neucha", cursive;  
+font-weight: 400;  font-style: normal;
+*/
+
+@import 'https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap';
+/*
+font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+/*Гиперссылки---------------------------------------------------------------------*/
+a{
+    color: #060000;
+    text-decoration: none;
+    transition: all.3s ease;
+    -ms-transition: all.3s ease;
+    -o-transition: all.3s ease;
+    -moz-transition: all.3s ease;
+    -webkit-transition: all.3s ease;
+}
+
+a:hover {
+    color: #f40b0b;
+    text-decoration: none;
+    transition: all.2s ease;
+    -ms-transition: all.2s ease;
+    -o-transition: all.2s ease;
+    -moz-transition: all.2s ease;
+    -webkit-transition: all.2s ease;
+}
+
+body {
+    height: 2000px;
+}
+
+
+/*Картинки-------------------------------------------------------------------*/
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; 
+    -moz-transition: all.3s ease-out;
+    -o-transition: all.3s ease-out;
+    -webkit-transition: all.3s ease-out;
+}
+
+/**/
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #908f8f;
+    margin: len 0;
+    padding: 0;
+}
+
+/*Шапка--------------------------------------------------------*/
+header {
+    float: left;
+    background-color: #d2f6048b;
+    width: 99.4%;
+    padding: 0.3%;
+    color: rgb(0, 0, 0);
+    border-bottom: 7px solid #000000;
+}
+
+/*Массив div id="logo"---------------------------------------------------------------*/
+header>div#logo>a>img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: auto;
+    
+    
+}
+
+header>div#logo>a>span {
+    font-size: 3em;
+    float: left;
+    margin-left: auto;
+    font-family: "Neucha", cursive;
+    color: rgb(0, 0, 0);
+    
+}
+
+header>div#logo>span {
+    font-size: 1.5em;
+    float: left;
+    margin-left: auto;
+    max-width: 300px;
+    font-family: "Roboto Serif", serif;
+}
+
+header>div#logo>a>img {
+    margin-left: 5%;
+    
+}
+
+#logo {
+   float: left; 
+   
+   max-width: 40%;
+}
+
+/*Выпадающие окна---------------------------------------------------*/
+
+#SOBO {
+    float: left;
+    margin-top: 28px;
+    
+
+    
+}
+
+#OSCOLE {
+    float: left;
+    margin-top: 55px;
+    margin-left: 5%;
+    
+    
+    
+}
+
+#HOVOSTI {
+    float: left;
+    font-size: 1.5em;
+    font-family: "Roboto Serif", serif;
+    margin-top: 55px;
+    
+    
+}
+
+#FA {
+    float: left;
+    margin-top: 55px;
+    margin-left: 1%;
+    max-width: 8%;
+    margin-left: 6%;
+}
+
+header {
+    display: table;
+    margin: 0 auto;
+}
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topmenu:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.topmenu > li {
+    width: 300px;
+    float: left;
+    position: relative;
+    font-family: "Roboto Serif", serif;
+}
+.topmenu > li > a {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000000;
+    padding: 5px 10px;
+}
+.topmenu li a:hover { color: #ff0000; }
+.submenu-link:after {
+    content: "\f107";
+    font-family: "Roboto Serif", serif;
+    color: #d2f6048b;
+    margin-left: 50px;   
+}
+.submenu {
+    background: #cfcece;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 5;
+    width: 350px;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: 0 0;
+    transition: .5s ease-in-out;
+}
+.submenu a {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 5px 8px;
+    font-size: 1.3em;
+    border-bottom: 1px solid #cfcece;
+}
+
+  .submenu li:last-child a { border-bottom: none; }
+  .topmenu > li:hover .submenu {
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+nav {
+    background-color: rgb(118, 53, 53);
+    width: 99.4%;
+    padding: 0.3%;
+    float: left;
+    border-bottom: 2px solid silver;
+    position: header;
+    
+}
+
+/*!!!!!!!!!!!!!!!!!!Конец шапки сайта!!!!!!!!!!!!!!!!!!----------------------------------------*/
+
+/*Основная часть сайта------------------------------------------------*/
+
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#content {
+    flex: 1 0 auto;
+}
+
+
+
+
+
+nav {
+    background-color: rgb(189, 188, 188);
+    width: 99.4%;
+    padding: 0.3%;
+    border-bottom: 2px solid silver; 
+    
+      
+}
+
+#search table  {
+    float: left;
+    margin-left: 30%;
+    font-family: "Roboto Serif", serif;
+    font-size: 1.2em;
+}
+
+
+
+nav>a {
+    margin-left: 50%;
+    float: left;
+    font-family: "Roboto Serif", serif;
+    font-size: 1.4em;
+    
+}
+
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    
+}
+
+
+
+
+
+
+/*Конец основной части сайта------------------------------------------*/
+
+/*Хлебные крошки НАВИГАЦИЯ---------------------------------------------*/
+
+/* Стиль списка */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #d3d3d38b;
+}
+  
+  /* Отображение элементов списка бок о бок */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+  
+  /* Добавить символ косой черты (/) перед/за каждым элементом списка */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+  
+  /* Добавить цвет для всех ссылок внутри списка */
+ul.breadcrumb li a {
+    color: #000000;
+    text-decoration: none;
+}
+  
+  /* Добавить цвет на наведении курсора мыши */
+ul.breadcrumb li a:hover {
+    color: #ff0202;
+    text-decoration: underline;
+}
+
+/* КОНЕЦ Хлебные крошки НАВИГАЦИЯ------------------------------------------------------*/
+
+/*Лента событий и кнопки----------------------------------------------------------*/
+
+hak {
+    background-color: rgb(255, 255, 255);
+    width: 99.4%;
+    padding: 0.3%;
+    float: left;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+/*Лента событий---------------------------------------------------------*/
+
+.marquee-infinite {
+    margin: 30px auto;
+    border: 1px solid #ffffff;
+    max-width: 125%;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.marquee-infinite:before,
+.marquee-infinite:after {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.marquee-infinite:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+}
+
+.marquee-infinite:after {
+    right:  0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+}
+
+
+.marquee-infinite div {
+    display: flex;
+    width: 300%;
+    animation: marquee-infinite 20s linear infinite;
+    
+}
+
+.marquee-infinite span {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.marquee-infinite img {
+    width: 17%;
+}
+
+.marquee-infinite:hover div {
+    animation-play-state: paused;
+}
+
+@keyframes marquee-infinite {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/*Конец ленты событий-----------------------------------------------------------*/
+
+/*Кнопки-------------------------------------------------------------*/
+
+#button3>table {
+    margin: auto;
+    text-align: center;
+}
+
+#button3>table tr td button {
+    font-size: 1.4em;
+    font-family: "Roboto Serif", serif;
+    width: 300px;
+    height: 80px;
+    background-color: #d2f6048b;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#button3>table tr td button:hover {
+    opacity: 0.6;
+}
+#button3>table tr td button {
+    transition: opacity 0.2s ease-out;
+}
+
+/*Новостная лента--------------------------------------------------------*/
+
+Novosti {
+    width: 99.4%;
+    padding: 0.3%;
+    list-style: none;
+    background-color: #d3d3d38b;
+    font-size: 25px;
+    font-family: "Roboto Serif", serif;
+    float: left;
+    
+}
+
+Novosti table {
+    margin: auto;
+    
+}
+
+Novosti table tr td {
+    width: 350px;
+    vertical-align: top;
+}
+
+/*Конец Новостная лента--------------------------------------------------------*/
+
+/*Календарь и список курсов--------------------------------------------------------*/
+
+darc {
+    background-color: rgb(255, 255, 255);
+    width: 99.4%;
+    padding: 0.3%;
+    text-align: center;
+    border-bottom: 2px solid rgb(255, 255, 255); 
+}
+
+/*список курсов--------------------------------------------------------------------------*/
+
+darc>courses {
+    width: 65%;
+    float: left;
+    
+}
+
+
+
+.courses>table  {
+    float: right;
+    
+}
+
+.courses>table tr td span {
+    font-size: 2.5em;
+    font-family: "Neucha", cursive; 
+}
+
+.courses>table tr td button p {
+    text-align: center;
+    font-family: "Roboto Serif", serif;
+    font-size: 1.2em;
+}
+
+.courses>table tr td button {
+    outline: none;
+    border: solid 1px #000000;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    font-weight: 600;
+    width: 380px;
+    margin-top: 8px;
+    margin-left: 8px;
+    border-radius: 20px;
+
+}
+
+.courses>table tr td button:hover {
+    opacity: 0.6;
+}
+.courses>table tr td button {
+    transition: opacity 0.2s ease-out;
+}
+
+/*Фрейм---------------------------------------------------------------------------*/
+
+iframe {
+    border: #ffffff; 
+    height: 600px;
+    display: flex;
+    float: right;
+    width: 35%;
+    
+    
+    
+
+}
+
+/*Конец календарь и список курсов--------------------------------------------------------------*/
+/*Слайдер------------------------------------------------------*/
+
+foto {
+    background-color: #ffffff8b;
+    width: 99.4%;
+    padding: 0.3%;
+    color: rgb(0, 0, 0); 
+}
+
+foto iframe {
+    margin: auto;
+    border: #000000;
+    width: 100%; 
+    height: 1000px; 
+    
+}
+
+
+
+
+
+
+/*Конец слайдер--------------------------------------------------------------*/
+
+/*Новости--------------------------------------------------------------*/
+
+nov { 
+    float: left;
+    width: 60%;
+    font-family: "Roboto Serif", serif;
+
+}
+
+nov>.N1 {
+    width: 726px;
+    float: right;
+}
+
+nov span {
+    font-size: 40px;
+    
+}
+
+nov p {
+    font-size: 25px;
+    
+}
+
+.N1 a {
+    font-size: 25px;
+}
+
+/*Конец Новости--------------------------------------------------------------*/
+
+/*Футер сайта----------------------------------------------------------------*/
+
+footer {
+    float: left;
+    background-color: #d2f6048b;
+    width: 98%;
+    padding: 1%;
+    color: rgb(0, 0, 0);
+    border-top: 5px solid #000000;
+    font-size: 20px;
+    
+}
+
+#rights {
+    float: left;
+    width: 25%;
+    font-size: 1.1em;
+    font-family: "Roboto Serif", serif;
+    color: #000000;
+}
+
+#rights a {
+    color: #000000;
+}
+
+
+
+
+#footer_menu  {
+    color: #000000;
+    font-family: "Roboto Serif", serif;
+    background: #f76666;
+    width: 25%;
+    margin-left: 24%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#footer_menu button {
+    height: 50px;
+    width: 130px;
+    font-size: 1.3em;
+    font-family: "Roboto Serif", serif;
+    border-radius: 30px;
+    background-color: #f88282;
+    cursor: pointer;
+}
+
+#footer_menu button:hover {
+    opacity: 0.6;
+}
+#footer_menu button {
+    transition: opacity 0.2s ease-out;
+}
+
