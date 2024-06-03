@@ -1,0 +1,374 @@
+/**/
+/*Шрифты*/
+@import 'https://fonts.googleapis.com/css2?family=Neucha&display=swap';
+/*
+font-family: "Neucha", cursive;  
+font-weight: 400;  font-style: normal;
+*/
+
+@import 'https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap';
+/*
+font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
+*/
+
+@import 'https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap';
+/*
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+*/
+
+ 
+/*История школы---------------------------------------------------------------*/
+
+text1 { 
+    float: left;
+    width: 60%;
+    font-family: "Roboto Serif", serif;
+
+}
+
+text1>.te1 {
+    width: 726px;
+    float: right;
+}
+
+text1 span {
+    font-size: 40px;
+    
+}
+
+text1 p {
+    font-size: 25px;
+    
+}
+
+/*Конец История школы-------------------------------------------------------------*/
+
+
+
+
+tabl>table tr td a {
+    font-size: 1.9em;
+    color: #000000;
+    font-family: "Mulish", sans-serif;
+}
+
+tabl>table tr td {
+    border-bottom: 2px solid #dadada;
+    
+}
+
+
+
+tabl {
+    border-left: 2px solid #000000;
+    max-width: 450px;
+    float: left;
+    width: 40%;
+    
+    
+}
+
+/*Календарь----------------------------------------------------------------*/
+
+calen {
+     
+    display: flex;
+    float: right;
+    width: 40%;
+
+}
+
+iframe {
+    width: 450px;
+}
+
+
+
+
+/*Конец Календарь----------------------------------------------------------------*/
+
+/*Школьный музей----------------------------------------------------------------*/
+
+text2 { 
+    float: left;
+    width: 60%;
+    font-family: "Roboto Serif", serif;
+
+}
+
+text2>.te2 {
+    width: 726px;
+    float: right;
+}
+
+text2 span {
+    font-size: 40px;
+    
+}
+
+text2 p {
+    font-size: 25px;
+    
+}
+
+
+
+
+/*Конец Школьный музей----------------------------------------------------------------*/
+
+/*Педагогтческий состав----------------------------------------------------------------*/
+
+text3 { 
+    float: left;
+    width: 60%;
+    font-family: "Roboto Serif", serif;
+
+}
+
+text3>.te3 {
+    width: 726px;
+    float: right;
+}
+
+text3 span {
+    font-size: 40px;
+    
+}
+
+text3 p {
+    font-size: 30px;
+    
+}
+
+.te3>.pedad span {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Педагогтческий состав папка----------------------------------------------------------------*/
+
+st1 { 
+    float: left;
+    width: 60%;
+    font-family: "Roboto Serif", serif;
+
+}
+
+st1>.S1 {
+    width: 726px;
+    float: right;
+}
+
+st1 span {
+    font-size: 40px;
+    
+}
+
+st1 p {
+    font-size: 25px;
+    
+}
+
+/*Конец Педагогический состав----------------------------------------------------------------*/
+
+/*Творческие коллективы----------------------------------------------------------------*/
+
+text4 { 
+    float: left;
+    width: 60%;
+    font-family: "Roboto Serif", serif;
+
+}
+
+text4>.te4 {
+    width: 726px;
+    float: right;
+}
+
+text4 span {
+    font-size: 40px;
+    
+}
+
+text4 p {
+    font-size: 25px;
+    
+}
+
+/*Конец Творческие коллективы----------------------------------------------------------------*/
+
+/*Фотогалерея----------------------------------------------------------------*/
+
+text5 { 
+    float: left;
+    width: 60%;
+    font-family: "Roboto Serif", serif;
+
+}
+
+text5>.te5 {
+    width: 726px;
+    float: right;
+}
+
+text5 span {
+    font-size: 40px;
+    
+}
+
+text5 p {
+    font-size: 15px;
+    
+}
+
+text5 a {
+    font-size: 25px;
+    
+}
+
+.te5 table tr td img {
+    width: 250px;
+    float: left; 
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+ 
+
+
+
+/*Фото----------------------------------------------------------------*/
+
+.S11 img {
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;   
+}
+
+.S11 a {
+    font-size: 35px;
+}
+
+
+/*Конец Фотогалерея----------------------------------------------------------------*/
+
+/*Библиотека----------------------------------------------------------------*/
+
+text6 { 
+    float: left;
+    width: 60%;
+    font-family: "Roboto Serif", serif;
+
+}
+
+text6>.te6 {
+    width: 726px;
+    float: right;
+}
+
+text6 span {
+    font-size: 40px;
+    
+}
+
+text6 p {
+    font-size: 25px;
+    
+}
+
+/*Конец Библиотека----------------------------------------------------------------*/
+
+/*Филарморские сезоны----------------------------------------------------------------*/
+
+text7 { 
+    float: left;
+    width: 60%;
+    font-family: "Roboto Serif", serif;
+
+}
+
+text7>.te7 {
+    width: 726px;
+    float: right;
+}
+
+text7 span {
+    font-size: 40px;
+    
+}
+
+text7 p {
+    font-size: 25px;
+    
+}
+
+/*Конец Филарморские сезоны----------------------------------------------------------------*/
+
+/*Независимая оценка----------------------------------------------------------------*/
+
+text8 { 
+    float: left;
+    width: 60%;
+    font-family: "Roboto Serif", serif;
+
+}
+
+text8>.te8 {
+    width: 726px;
+    float: right;
+}
+
+text8 span {
+    font-size: 40px;
+    
+}
+
+text8 p {
+    font-size: 25px;
+    
+}
+
+.te8 a {
+    font-size: 24px;
+}
+
+/*Независимая оценка папка----------------------------------------------------------------*/
+
+st1 { 
+    float: left;
+    width: 60%;
+    font-family: "Roboto Serif", serif;
+
+}
+
+st1>.S1 {
+    width: 726px;
+    float: right;
+}
+
+st1 span {
+    font-size: 40px;
+    
+}
+
+st1 p {
+    font-size: 25px;
+    
+}
+
+st1 a {
+    font-size: 25px;
+}
+
+/*Конец Независимая оценка----------------------------------------------------------------*/
